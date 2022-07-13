@@ -39,94 +39,74 @@ function renderAll() {
 function renderPatty() {
   let patty = document.getElementById("patty");
   let button = document.querySelector(".btn-patty")
-  // let total = parseInt(document.getElementById("price").innerText)
   if (state.Patty) {
     document.getElementById("ing-patty").style.display = "inherit"
     patty.style.display = "inherit";
     button.style.boxShadow="0 9px rgb(6, 180, 6)";
-    // total +=80
   } else {
     document.getElementById("ing-patty").style.display = "none"
     patty.style.display = "none";
     button.style.boxShadow="0 9px #999";
-    // total -=80
   }
-  // document.getElementById("price").innerText = total
 }
 
 function renderCheese() {
   let cheese = document.getElementById("cheese");
   let button = document.querySelector(".btn-cheese")
-  // let total = parseInt(document.getElementById("price").innerText)
   if (state.Cheese) {
     document.getElementById("ing-cheese").style.display = "inherit"
     cheese.style.display = "inherit";
     button.style.boxShadow="0 9px rgb(6, 180, 6)";
-    // total +=10
   } else {
     document.getElementById("ing-cheese").style.display = "none"
     cheese.style.display = "none";
     button.style.boxShadow="0 9px #999";
-    // total -=10
   }
-  // document.getElementById("price").innerText = total
 }
 
 function renderTomatoes() {
   //Trial 1 - Change the visibility of Tomatoes based on state by manipulating the DOM
   let tomatoes = document.getElementById("tomato");
   let button = document.querySelector(".btn-tomatoes")
-  // let total = parseInt(document.getElementById("price").innerText)
   if (state.Tomatoes) {
     document.getElementById("ing-tomato").style.display = "inherit"
     tomatoes.style.display = "inherit";
     button.style.boxShadow="0 9px rgb(6, 180, 6)";
-    // total +=20
   } else {
     document.getElementById("ing-tomato").style.display = "none"
     tomatoes.style.display = "none";
     button.style.boxShadow="0 9px #999";
-    // total -=20
   }
-  // document.getElementById("price").innerText = total
 }
 
 function renderOnions() {
   //Trial 1 - Change the visibility of Onions based on state by manipulating the DOM
   let onion = document.getElementById("onion");
   let button = document.querySelector(".btn-onions")
-  // let total = parseInt(document.getElementById("price").innerText)
   if (state.Onions) {
     document.getElementById("ing-onion").style.display = "inherit"
     onion.style.display = "inherit";
     button.style.boxShadow="0 9px rgb(6, 180, 6)";
-    // total +=20
   } else {
     document.getElementById("ing-onion").style.display = "none"
     onion.style.display = "none";
     button.style.boxShadow="0 9px #999";
-    // total -=20
   }
-  // document.getElementById("price").innerText = total
 }
 
 function renderLettuce() {
   //Trial 1 - Change the visibility of Lettuce based on state by manipulating the DOM
   let lettuce = document.getElementById("lettuce");
   let button = document.querySelector(".btn-lettuce")
-  // let total = parseInt(document.getElementById("price").innerText)
   if (state.Lettuce) {
     document.getElementById("ing-lettuce").style.display = "inherit"
     lettuce.style.display = "inherit";
     button.style.boxShadow="0 9px rgb(6, 180, 6)";
-    // total +=20
   } else {
     document.getElementById("ing-lettuce").style.display = "none"
     lettuce.style.display = "none";
     button.style.boxShadow="0 9px #999";
-    // total -=20
   }
-  // document.getElementById("price").innerText = total
 }
 
 
